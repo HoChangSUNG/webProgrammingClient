@@ -602,7 +602,9 @@ margin-top: 10px;}
   /* white-space: normal; */
   float: left;
   width: 50%;
+  display: relative;
 }
+
 .movie_point_list_item:nth-child(2n+1){
   
   border-right: 1px solid #ddd;
@@ -739,4 +741,20 @@ margin-top: 10px;}
   word-break: break-all;
   float: left;
   width: 80%;
+}
+.movie_point_list_comment_sub{
+display: fixed;
+height: 50px;
+margin-top: 140px;
+margin-left: 90px;
+color: #666666;
+font-size: 18px;
+}
+.comment_createdDate{
+  display: inline-block;
+  margin-right: 10px;
+}
+.comment_like_cnt{
+  display: inline-block;
+  margin-left: 3px;
 }
