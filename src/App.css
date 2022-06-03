@@ -629,6 +629,7 @@ margin-top: 10px;}
   box-sizing: border-box;
   border-radius: 5px;
   margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .real-rating .title{
@@ -757,4 +758,48 @@ font-size: 18px;
 .comment_like_cnt{
   display: inline-block;
   margin-left: 3px;
+
+}
+
+.comment_update{
+  display: inline-block;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.create_comment_wrap{
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.comment-rating-select-option{
+  height: 40px;
+  width: 70px;
+  font-size: 20px;
+  text-align-last: center;
+text-align: center;
+-ms-text-align-last: center;
+-moz-text-align-last: center;
+margin-left: 50px;
+margin-right: 10px;
+}
+
+.comment-input-box{
+  height: 40px;
+  width: 600px;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+.comment-submit{
+  height: 40px;
+  width: 50px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 10px;
+  line-height: 40px;
 }

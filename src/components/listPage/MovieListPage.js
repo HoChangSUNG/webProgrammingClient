@@ -13,7 +13,7 @@ const movieDetail = [
   },
   {
     movieName: "극장판 포켓몬스터DP-기라티나와 하늘의 꽃다발 쉐이미",
-    imgSrc: "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000085/85715/85715_320.jpg",
+    imgSrc: "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000085/85833/85833_320.jpg",
     bookingRate: 15.5,director:"이상용",actor:"배우들", genre:"장르",contry:"나라",openDate:"2022.05.18",showTime:120,ageLimit:12,movieRating:80
   },
   { movieName: "브로커", imgSrc: "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000085/85829/85829_320.jpg", bookingRate: 10.5 ,director:"이상용",actor:"배우", genre:"장르",contry:"나라",openDate:"2022.05.18",showTime:120,ageLimit:12,movieRating:70},
@@ -21,7 +21,6 @@ const movieDetail = [
   { movieName: "애프터 양", imgSrc: "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000085/85884/85884_320.jpg", bookingRate: 2.5,director:"양",actor:"배우", genre:"장르",contry:"나라",openDate:"2022.01.18",showTime:120,ageLimit:12 ,movieRating:79},
   { movieName: "피는 물보다 진하다", imgSrc: "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000085/85790/85790_320.jpg", bookingRate: 1.5,director:"감독",actor:"", genre:"장르다",contry:"국가다",openDate:"2022.12.18",showTime:120,ageLimit:12,movieRating:19 },
 ];
-
 const MovieListPage = () => {
   return (
     <div className="movie_list_container">

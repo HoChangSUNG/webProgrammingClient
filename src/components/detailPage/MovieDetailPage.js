@@ -1,5 +1,13 @@
 import { AiOutlineLike } from "react-icons/ai";
+
+const showCommentDiv = (e) =>{
+
+}
+
 const MovieDetailPage = (props) => {
+
+
+
   return (
     <div>
       <div className="movie-detail-container">
@@ -35,7 +43,7 @@ const MovieDetailPage = (props) => {
               </span>
             </p>
             <div className="wrap_btn">
-              <a className="link-gradewrite">
+              <a className="link-gradewrite" id="show-comment-div" onClick={showCommentDiv}>
                 <span>평점작성</span>
               </a>
               <a className="link-reviewwrite">
@@ -43,6 +51,23 @@ const MovieDetailPage = (props) => {
               </a>
             </div>
           </div>
+
+        {/* 댓글 등록 화면 */}
+        <div classNames="create_comment_wrap">
+        <select className="comment-rating-select-option" id="comment-rating" name="comment-rating-type">
+          <option title="현재 선택됨" value="1">
+            1
+          </option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+
+          <option value="4">4</option>
+          <option value="5">5</option>
+
+        </select>
+        <input className="comment-input-box" type="text" name="comment"></input>
+        <div className="comment-submit">등록</div>
+        </div>
 
          {/*댓글*/}
           <ul id="movie_point_list_container" className="movie_persongrade"> 
@@ -59,6 +84,7 @@ const MovieDetailPage = (props) => {
                 <div className="comment_createdDate">2022.06.02 | </div>
                 <AiOutlineLike fontSize="22px" />
                 <div className="comment_like_cnt">1</div>
+                <div className="comment_update">수정하기</div>
               </div>
             </li>
 
@@ -74,6 +100,7 @@ const MovieDetailPage = (props) => {
                 <div className="comment_createdDate">2022.06.02 | </div>
                 <AiOutlineLike fontSize="22px" />
                 <div className="comment_like_cnt">1</div>
+                <div className="comment_update">수정하기</div>
               </div>
             </li>
 
@@ -89,6 +116,7 @@ const MovieDetailPage = (props) => {
                 <div className="comment_createdDate">2022.06.02 | </div>
                 <AiOutlineLike fontSize="22px" />
                 <div className="comment_like_cnt">1</div>
+                <div className="comment_update">수정하기</div>
               </div>
             </li>
 
@@ -104,9 +132,9 @@ const MovieDetailPage = (props) => {
                 <div className="comment_createdDate">2022.06.02 | </div>
                 <AiOutlineLike fontSize="22px" />
                 <div className="comment_like_cnt">1</div>
+                <div className="comment_update">수정하기</div>
               </div>
             </li>
-
           </ul>
         </div>
       </div>
